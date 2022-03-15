@@ -1,7 +1,7 @@
 package defolt;
 
 public class Map {
-	int templature;
+	int temprature;
 	int oceansOnMap;
 	int oxygenOnMap;
 
@@ -10,9 +10,9 @@ public class Map {
 		
 	}
 	public void raiseTemprature() {
-		templature+=2;
+		temprature+=2;
 		
-		System.out.println();
+		System.out.println("気温が２℃上昇して"+temprature+"℃になりました");
 	}
 	
 	
