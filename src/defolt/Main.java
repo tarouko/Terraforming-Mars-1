@@ -6,19 +6,19 @@ public class Main {
 		//mapインスタンスを生成
 		
 		Player shunta = new Player();
+		Player satoshi = new Player();
 		
 		shunta.TR = 20;
 		shunta.board.MC = 42;
 		shunta.board.MCPro = 0;
 		shunta.board.plants = 0;
 		shunta.board.plantsPro = 0;
+		
 
 		
 		
 		shunta.standerdRaiseTemprature();
-		shunta.standerdRaiseTemprature();
-		shunta.standerdRaiseTemprature();
-		shunta.standerdRaiseTemprature();
+		satoshi.standerdRaiseTemprature();
 		//
 	}
 	
