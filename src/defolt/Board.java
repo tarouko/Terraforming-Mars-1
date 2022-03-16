@@ -4,15 +4,15 @@ public class Board {
 	//Pro==production
 	//Nothing==Rrsources
 	int MC=60;
-	int MCPro;
+	int MCPro=0;
 	int steel;
 	int steelPro;
 	int titanium;
 	int titaniumPro;
 	int plants;
 	int plantsPro;
-	int energy;
-	int energyPro;
+	int energy=0;
+	int energyPro=0;
 	int heat;
 	int heatPro;
 

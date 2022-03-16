@@ -1,18 +1,18 @@
 package defolt;
 
 public class Map {
-	int temprature = -30;
-	int oceansOnMap;
-	int oxygenOnMap;
+	 static int temprature = -30;
+	 static int oceansOnMap;
+	 static int oxygenOnMap;
 
-
-	public void putOcean() {
+	public void putOcean(String name) {
 		
+		System.out.println(name+"は海を置いた！");
 	}
 	public void raiseTemprature() {
-		this.temprature+=2;
+		Map.temprature+=2;
 		
-		System.out.println("気温が2℃上昇して"+this.temprature+"℃になりました。");
+		System.out.println("気温が2℃上昇して"+Map.temprature+"℃になりました。");
 	}
 	
 	

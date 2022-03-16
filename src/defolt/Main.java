@@ -8,16 +8,15 @@ public class Main {
 		Player shunta = new Player();
 		Player satoshi = new Player();
 		
-		shunta.TR = 20;
-		shunta.board.MC = 42;
-		shunta.board.MCPro = 0;
-		shunta.board.plants = 0;
-		shunta.board.plantsPro = 0;
+		shunta.name = "しゅんた";
+		satoshi.name = "さとし";
 		
 
 		
 		
 		shunta.standerdRaiseTemprature();
+		satoshi.standerdRaiseEnergy();
+		shunta.standerdPutOcean();
 		satoshi.standerdRaiseTemprature();
 		//
 	}
