@@ -27,7 +27,7 @@ public class Player {
 		}
 		board.MC-=18;//お金を払って
 		System.out.println(this.name+"のMCが18減って"+board.MC+"MCになりました。");
-		map.putOcean(this.name);//気温を上げた
+		map.putOcean(this.name);//海を置いた
 		this.TR+=1;//TRも上がった
 		System.out.println(this.name+"のTRが1上昇して"+this.TR+"になりました。");
 		System.out.println("");
@@ -39,7 +39,7 @@ public class Player {
 		}
 		board.MC-=11;//お金を払って
 		System.out.println(this.name+"のMCが11減って"+board.MC+"MCになりました。");
-		board.energy += 1;//気温を上げた
+		board.energy += 1;//電力を上げた
 		this.TR+=1;//TRも上がった
 		System.out.println(this.name+"の電力産出が1上昇して"+board.energy+"になりました。");
 		System.out.println("");
