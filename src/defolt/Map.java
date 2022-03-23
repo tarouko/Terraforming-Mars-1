@@ -8,6 +8,7 @@ public class Map {
 	public void putOcean(String name) {
 		
 		System.out.println(name+"は海を置いた！");
+		gui.Map.putOceanGraphics();
 	}
 	public void raiseTemprature() {
 		Map.temprature+=2;

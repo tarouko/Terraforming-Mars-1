@@ -3,7 +3,7 @@ package defolt;
 public class Board {
 	//Pro==production
 	//Nothing==Rrsources
-	int MC=60;
+	int MC=42;
 	int MCPro=0;
 	int steel;
 	int steelPro;
